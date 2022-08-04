@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title> Javascript</title>
+    </head>
+<body>
+<h1>Hellooo World Javascript</h1>
+<h2>Parcentage Calculator</h2>
+
+<form onsubmit="calculate(); return false ">
+    <label for="totalMarks"> Total Marks</label>
+    <input type="number" min="1" required id="totalMarks" placeholder="enter total marks">
+<br><br>
+    <label for="obtainMarks"> obtain Marks</label>
+    <input type="number" min="1" required id="obtainMarks" placeholder="enter obtainMarks">
+    <button type="submit"> Calculate </button>
+</form>
+<h1 id="result"></h1>
+
+<script src="./app.js"></script>
+</body>
+</html>
